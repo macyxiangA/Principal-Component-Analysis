@@ -14,7 +14,6 @@ def load_and_center_dataset(filename):
     Returns:
         numpy.ndarray: Centered dataset (n x d matrix)
     """
-    # Your implementation goes here!
     X = np.load(filename)
     mean = np.mean(X, axis=0)
     X_centered = X - mean 
