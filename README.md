@@ -29,6 +29,7 @@ Place your `.npy` dataset or text input in the project directory and call the ap
 ## File Structure
 
 - pca_and_ngram.py — main implementation file
+- test_ngram.py — small test/demo script for the n-gram model
 - dataset.npy — sample data (optional)
 - README.md
 
@@ -38,6 +39,10 @@ Python 3
 NumPy  
 SciPy  
 Matplotlib
+
+Install them with:
+
+    pip install -r requirements.txt
 
 ## Author
 

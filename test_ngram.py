@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test file: Validate student implementations of NGramCharLM class in hw3.py
+Test file: Validate the NGramCharLM class in pca_and_ngram.py
 
 This script trains an N-gram language model on Shakespeare text and tests various functionalities.
 Students can run this script to verify their implementation is correct.
@@ -13,12 +13,10 @@ import urllib.request
 import sys
 import os
 
-# Import student implementation
 try:
-    from hw3 import NGramCharLM
+    from pca_and_ngram import NGramCharLM
 except ImportError:
-    print("Error: Cannot import NGramCharLM class from hw3.py")
-    print("Please ensure hw3.py is in the same directory and NGramCharLM class is properly implemented")
+    print("Error: Cannot import NGramCharLM from pca_and_ngram.py")
     sys.exit(1)
 
 
